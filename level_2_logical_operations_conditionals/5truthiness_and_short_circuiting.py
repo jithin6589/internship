@@ -49,3 +49,11 @@ def main():
 
 
 main()
+
+
+#doubts
+#we use input like string how to check the integers
+#also the ai show other method like ,
+# if ch >= '0' and ch <= '9': 
+# if ch >= 'A' and ch <= 'Z':
+# what is the use of join operator
