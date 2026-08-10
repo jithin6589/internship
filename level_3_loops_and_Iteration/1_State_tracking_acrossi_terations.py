@@ -1,19 +1,40 @@
-def state_tracking():
+def state_tracking(number):
 
     previous = 0
 
-    for now in range(10):
+    for i in range(number):
 
-        total = now + previous
+        total = i + previous
 
-        print(f"Current {now} Previous {previous} Sum {total}")
+        print(f"Current {i} Previous {previous} Sum {total}")
 
-        previous = now
+        previous = i
 
 
 def main():
+    number = int(input("Enter a number: "))
+    state_tracking(number)
+    
 
-    state_tracking()
+
+# def state_tracking(number):
+
+#     previous = 0
+
+#     for now in range(number):
+
+#         total = now + previous
+
+#         print(f"Current {now} Previous {previous} Sum {total}")
+
+#         previous = now
 
 
-main()
+# def main():
+
+#     number = int(input("Enter a number: "))
+
+#     state_tracking(number)
+
+
+# main()
