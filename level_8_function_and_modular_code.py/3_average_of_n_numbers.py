@@ -1,8 +1,8 @@
-def avg(*args):
+def avg(numbers):
 
-    total = sum(args)
+    total = sum(numbers)
 
-    average = total / len(args)
+    average = total / len(numbers)
 
     return average
 
@@ -15,7 +15,7 @@ def main():
 
     numbers = list(map(int, numbers))
 
-    result = avg(*numbers)
+    result = avg(numbers)
 
     print("Average:", result)
 
