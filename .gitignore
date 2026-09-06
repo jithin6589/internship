@@ -1,0 +1,10 @@
+# Secrets
+**/client_secret.json
+**/token files/
+
+# Python
+**/__pycache__/
+**/*.pyc
+
+# VS Code
+**/.vscode/
